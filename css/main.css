@@ -171,3 +171,40 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+
+@media all and (min-width:768px){
+	/*Tablet*/
+	.bottom-section{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.section-one{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.section-two{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.section-three{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+}
+
+
+@media all and (min-width:1200px){
+	/*Desktop*/
+	header nav ul{
+		display:flex;
+		justify-content:space-between;
+	}
+}
